@@ -7,7 +7,7 @@ import bs4
 
 def GetStreamlitApp(llm,portfolio):
     st.title("📧 Cold Mail Generator")
-    url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-48491?from=job%20search%20funnel")
+    url_input = st.text_input("Enter a URL:")
     submit_button = st.button("Submit")
 
     if submit_button:
